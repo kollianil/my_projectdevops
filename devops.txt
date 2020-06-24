@@ -1,0 +1,157 @@
+Linux :
+
+Basic Unix Commands
+
+ls             -   Command used to list
+cat            
+        
+uname               : It tells about the operating system
+
+uname -a          :  It type of linux info,kernel versions
+
+man uname      : It lists all commands related to uname 
+
+To find out Linux version name : 
+lsb_release -a  : To find out Linux distribution name and version
+cat etc/os-release (fedora AWS) :  To find out Linux distribution name and version  
+
+Installation commands : 
+yum   -   i installation cmd is for fedora
+apt-get - is for debian machine 
+
+pipe   |               :  A pipe is a form of redirection that is used to send the output of one program to another program for further processing.
+example : ls -l | head -7 | tail -3 ( it selects the first 7 lines that will input to (tail -3)command which will finally print last 3 lines from that 7 lines.)
+
+history              :  give the list of commands used in terminal
+
+sudo                : It gives temporary access to root 
+example to add user :
+sudo useradd xyz
+sudo passwd xyz
+
+cut                  :  
+
+grep (Global Regular Expression Print) : 
+This command is  used to search for a string of characters in a specified file, command is used when searching through large log files. 
+example : 
+Search any line that contains the word in filename on Linux: grep 'word' filename
+Perform a case-insensitive search for the word bar in Linux and Unix: grep -i 'bar' file1
+
+
+
+Advanced commands :
+
+
+Daemons : A daemon (also known as background processes) is a Linux or UNIX program that runs in the background, the names of daemons conventionalyy end woth 'd' ex : httpd, initd,sshd,nfsd, ipd etc
+
+
+walk through profile :
+
+
+setting up Git in AWS :
+Switch to root user and `yum install git`:
+
+Configure git.
+Set username and ID
+Note: Set your own username and ID that you are going to access github with
+# git config --global user.name "kollianil"
+# git config --global user.id "anilkmr1989@gmail.com" 
+# git config --list
+check if gitconfig is set with your credentials
+# vi ~/.gitconfig
+
+Git :
+ Git allow us to create local repository into our system which is accessible and visible to only owner. 
+ Each developer has there own local repository where the can make changes and push into Central or Remote repository, where this changes are visible to all contributors.
+GitHub: 
+It is a central repository where all committed changes are resides. 
+A project resides under master branch, each project has one master branch where all contributors are finally pushed their codes or changes.
+
+Basics commands:
+git 
+To check version of git
+# git --version
+To create local repository 
+# mkdir demo
+# cd demo
+# git init
+To check status 
+# git status 
+To link our local repo with central repo
+# git remote add origin <link of the central repository>
+
+To pull all files from central repo 
+#git pull origin master
+To add changes into index
+# git add <file name>
+To commit changes to git
+# git commit - m "comment" <file name>
+To push file into central repo 
+# git push origin master
+
+
+Git Interview questions  :
+
+to commit and merge : when there are many devlopers to maintaning history 
+
+squash and merge : 
+
+rebase and merge : 
+
+a question asked by one of us as a devops engineer why we should learn git and our responsibilities with that 
+as a devop eng we have to understand how to git works
+if anything wrong with devlopers for managing git do we have to explain them how pull req works how to create a branch and to give us the profile 
+
+
+Docker :
+
+Microservices --> Is hosted in containers
+
+Containers --> running the apps
+
+Docker -- containerisation tool
+
+Docker is a platform whic can run manage and ship our containers
+Docker is a containerisation tool which can create containers kill containers but which cant manage containers(life cycle)
+
+Docker properties :
+provides fast delivery of the applications
+has high density and runs more workloads
+aids in quick deployement for easy managemnet
+
+
+Test to check git changes
+
+docker run - to create a container
+docker ps - to check the running process state
+docker ps -a it will list all the containers 
+exit - stop the container
+ctrlp+ctrlq - it will be out from the container 
+docker inspect  - to check the ip adrees of the container, process etc 
+
+
+Jenkins : (Manish )
+
+Continous Integration : Build with every change 
+
+Jenkins : (aws)
+pwd :
+7c50c81501074d3d97e2b2a304d983ac 
+
+Admins account :
+anilkolli
+wtg123
+mail :anilkmr1989@gmail.com
+
+
+jenkins url :
+http://ec2-54-190-59-34.us-west-2.compute.amazonaws.com:8080/
+
+Note :
+while adding Jenkins GPG to authorized key so that Jenkins can be installed,
+use New Command (which was mentioned in doc )to avoid errors 
+sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key 
+
+
+
+
