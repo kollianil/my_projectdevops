@@ -1,0 +1,165 @@
+1  Empty string
+2  Empty string
+3  Empty string
+4   Fixed
+5   Fixed
+6   empty colon
+7   Fixed
+8   Fixed
+9   Fixed 
+10 Fixed
+11  Not implemented
+12  Fixed
+13  postponed Not promised for this release
+14  Fixed
+15  Fixed
+16  Fixed
+17  14  ongoing
+18  Fixed
+19  Not reproducible
+20 Fixed
+21 Fixed
+22 Empty tab
+23 Empty tab
+24 Empty tab
+25 Empty tab
+26  Not reproducible
+27  Fixed
+28  Fixed
+29  Fixed
+30  Fixed
+31  Fixed
+32  Fixed
+33 its a functinality explined to BALTCOM - This is the Network name to which our app scans connectivity 
+34 empty 
+35 Fixed 
+36 not an issue
+37 Fixed
+38 Fixed
+39 postponed
+40 triple seed test case -  cant test here 
+41 postponed
+42 not tested
+43 Fixed
+44 postponed
+45 postponed
+46 Fixed
+47 Fixed
+48 Fixed
+49 cant test with dev build 
+50 empty string
+51 empty string
+52 Empty string
+53  Fixed
+54  Not verified
+55  verified
+56  verified
+57  verified
+58  verified 
+59  verified 
+60  verified (same as screen shot)
+61  Have to verify
+62  Have to verify
+63  some times reproducible on iPad
+64  Not applicable in iOS
+65  verified
+66  verified
+67  verified
+68  verified
+69  verified
+70  Not applicable in iOS
+71  have to verified with fritz box (Fixed)
+72  verified
+73  Not applicable in iOS
+74  verified
+75  verified
+76  verified
+77  verified
+81  verified
+82  verified
+83  Doubt
+84  verified
+85  verified
+86  verified
+87  verified (font has to increase)
+88  verified
+89  verified (Par) 
+90  verified (Par) 
+94  verified
+95  verified
+96  Not applicable for iOS
+97 verified
+98 verified
+99 verified in android (not avaliable wifi spectrum)
+100.verified in android (not avaliable wifi spectrum) 
+101.Latvian
+102.verified
+103.verified
+104.verified 
+105.verified
+106.verified
+107.verified
+108.verified
+109.verified
+110.verified 
+111.verified English, Russian, Latvian
+112.verified English, Russian, Latvian
+113.verified English, Russian, Latvian
+114.verified English, Russian, Latvian
+115.verified English, Russian, Latvian
+116.verified English, Russian, Latvian
+118.verified -- ok
+120 Page not loaded
+121.verified -- Not ok 
+122.verified -- Not ok
+123.verified -- ok
+124.verified -- ok
+125.verified -- ok
+126.verified 
+127.verified (not avaliable iOS)
+128.verified (Shown the network name)
+129.verified (Shown the network name)
+130.verified
+131.verified
+132 Not observe
+133 Not observe
+134 Reproducible
+135 
+136.verified -- Not ok
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+155 
+156  Not ok  - complete string is not visible in Russian lang (villa comments it is same on Androind so cnat fix it for now)
+157   Fixed
+158   need more info
+159
+160
+161
+162  Fixed
+163  Fixed
+164  Fixed
+165  Not verified
+166  Fixed
+167  Not verified 
+168   Not ok - can see slash beside strings 
+169   Fixed
+172   Not relevant
+
+
